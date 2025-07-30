@@ -1,0 +1,4 @@
+[AutoRun]
+open=StartApp.bat
+icon=StartApp.ico
+label=My USB Drive
