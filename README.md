@@ -39,3 +39,12 @@ This tool facilitates the collection of RAM dumps on both Windows and Linux (Par
 3. Run the script using:
    ```bash
    python ram_dump.py
+4.raw file containing the RAM dump will be generated in the same folder.
+
+For Linux
+Step 1: Compile LiME Kernel Module
+Install required packages and clone the repo:
+sudo apt-get install -y linux-headers-$(uname -r) dkms git
+git clone https://github.com/504ensicsLabs/LiME
+cd LiME/src
+make
